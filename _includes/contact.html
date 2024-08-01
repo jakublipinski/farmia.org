@@ -1,0 +1,126 @@
+{% assign c = site.data.contact[page.lang] %}
+
+    <!-- HEADER -->
+    <header data-jarallax data-speed=".8" style="background-image: url(/assets/img/8.jpg)">
+        <div class="pt-10 pb-8 pt-md-15 pb-md-13 bg-black bg-opacity-50">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-8 col-lg-6 text-center">
+                <!-- Heading -->
+                <h1 class="display-6 fw-bold text-white">{{t.contact_us}}</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+  
+
+   <!-- CONTACT -->
+   <section class="py-7 py-md-9">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6 text-center">
+          <!-- Heading -->
+          <h2 class="mb-2">{{c.get_in_touch}}</h2>
+
+          <!-- Subheading -->
+          <p class="mb-6">{{c.get_in_touch2}}</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 order-md-2">
+          <!-- Heading -->
+          <h4 class="mb-2 text-xs">{{c.write_us}}</h4>
+
+          <!-- Text -->
+          <p class="mb-1 font-serif">
+            <i class="far fa-envelope me-2"></i>
+            <a class="text-decoration-none" href="mailto:farmia.org@gmail.com">farmia.org@gmail.com</a>
+          </p>
+          <p class="mb-1 font-serif">
+            <i class="fab fa-whatsapp me-2"></i>
+            <a class="text-decoration-none" href="https://wa.me/48606255217">WhatsApp</a>
+          </p>
+          <p class="mb-1 font-serif">
+            <i class="fab fa-instagram me-2"></i>
+            <a class="text-decoration-none" href="https://www.instagram.com/direct/t/17845748780646866">Instagram</a>
+          </p>
+          <p class="mb-4 font-serif">
+            <i class="fab fa-facebook-messenger me-2"></i>
+            <a class="text-decoration-none" href="m.me/101509639231054">Facebook Messenger</a>
+          </p>
+
+          <!-- Heading -->
+          <h4 class="mb-2 text-xs">{{c.call_us}}</h4>
+
+          <!-- Text -->
+          <p class="mb-4 font-serif">
+            <i class="fas fa-phone me-2"></i>
+            <a class="text-decoration-none" href="tel:+48690572223">+48 690 572 223</a>
+          </p>
+
+          <!-- Heading -->
+          <h4 class="mb-2 text-xs">{{c.visit_us}}</h4>
+
+          <!-- Text -->
+          <a class="text-decoration-none" href="https://maps.app.goo.gl/ryuHazaUbHCy4Rut9">
+            <p class="mb-0 font-serif">Farmia</p>
+            <p class="mb-0 font-serif">Stękiny 3</p>
+            {% if page.lang == "pl" %}
+                <p class="mb-4 font-serif">11-042 Stękiny</p>
+            {% else %}
+            <p class="mb-0 font-serif">11-042 Stękiny</p>
+            <p class="mb-4 font-serif">Poland</p>
+            {% endif %}
+          </a> 
+
+          <!-- Heading -->
+          <h4 class="mb-2 text-xs">{{c.follow_us}}</h4>
+
+          <!-- List -->
+          <div class="d-flex mb-6 mb-md-0 font-serif">
+            <a class="d-block me-3" href="https://fb.com/farmia.org">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a class="d-block" href="https://instagram.com/farmia_org">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-9 order-md-1">
+          <!-- Form -->
+          <form class="block-decoration block-decoration-2"  action="https://submit-form.com/6DOABuLKM">
+            <!-- Name -->
+            <div class="mb-3">
+              <label class="visually-hidden" for="user_name">{{c.user_name}}</label>
+              <input class="form-control" id="user_name" name="user_name" type="text" placeholder="{{c.user_name}}" required />
+            </div>
+
+            <!-- Email -->
+            <div class="mb-3">
+              <label class="visually-hidden" for="user_email">{{c.email_address}}</label>
+              <input class="form-control" id="user_email" name="user_email" type="email" placeholder="{{c.email_address}}" required />
+            </div>
+
+            <!-- Message -->
+            <div class="mb-3">
+              <label class="visually-hidden" for="message">{{c.message}}</label>
+              <textarea class="form-control" id="message" name="message" rows="9" placeholder="{{c.message}}" required></textarea>
+            </div>
+
+            <!-- Button -->
+            <button class="btn btn-outline-primary" type="submit">{{c.send_message}}</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- MEET -->
+    <section data-jarallax data-speed=".8" style="background-image: url(/assets/img/9.jpg)">
+        <div class="min-vh-100 py-7 py-md-9">
+            <div class="container">
+            </div>
+        </div>
+        </section>
+    

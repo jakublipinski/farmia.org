@@ -1,0 +1,122 @@
+eurpln: 4.1
+main_building: 2500
+main_building2: 3500
+appt: 350
+appt2: 400
+food: 180
+food2: 200
+sauna: 200
+wood: 50
+
+en:
+  offer: Offer
+  offer2: What do we offer?
+  offer3: See what we have prepared for you during your stay at Farmia.
+  offer4: Main building
+  offer5: "Our main building is a renovated old Prussian barn built of red brick. It comfortably hosts 19 people."
+  offer6: |
+    On the ground floor, there are:
+    1. Hallway.
+    2. Lily room (double bed). Bathroom with shower. Pet-friendly room.
+    3. Fully equipped kitchen with gas stove, electric oven, and dishwasher.
+    4. Dining room and living room with a wood fireplace.
+    5. Dry sauna.
+    6. Massage room.
+  offer7: |
+      On the attic, there are the following rooms, each equipped with a bathroom with a shower:
+      1. Nasturtium (two single beds).
+      2. Sunflower (two single beds and two mattresses in the mezzanine).
+      3. Poppy (two single beds in a separate bedroom and a sofa). Terrace.
+      4. Mint (two single beds in a separate bedroom and a sofa). Terrace.
+      5. Cornflower (two single beds and two mattresses in the mezzanine).
+      6. Lilac (two single beds).
+  offer11: The building has underfloor heating and recuperation. The sauna is powered by an electric stove.
+  offer8: The Barn
+  offer9: Our barn is a masterpiece of Polish carpentry listed in the register of historic monuments. We make this space available for workshops, meals, and meetings.
+  offer10: We provide guests with 200㎡ of barn space. The floor has a concrete surface. The barn offers coolness on hot days and shelter from the wind. It is not heated. You can watch movies there, have a conversation during a meal, or practice yoga. There is light, electricity, and wireless internet access.
+  offer11: Farmyard
+  offer12: We invite guests to use our farmyard organized based on the original Warmian farm.
+  offer13: |
+    Our area consists of the following elements:
+    1. Main building for guests.
+    2. Terrace.
+    3. Pond.
+    4. The Barn.
+    5. The House.
+    6. Unused farm building.
+    7. Bonfire area.
+    8. Main entrance.
+  offer14: Meals
+  offer15: The specialty of Farmia is delicious vegetarian meals. We can also cook traditionally and always seasonally, locally, and with heart.
+  offer16: "Vegetarian cooking is a fascinating journey through diverse flavors and culinary techniques, allowing the discovery of healthy and tasty dishes. Our experience in this field includes a wide range of dishes, from simple salads and soups to more complex main courses. For example, our creamy pumpkin and lentil soup is highly appreciated, as is our quinoa salad with grilled vegetables and tahini sauce. We also specialize in preparing vegetarian versions of classic dishes, such as eggplant and zucchini lasagna or chickpea and spinach curry. Our kitchen is a place where the freshness of ingredients meets a passion for cooking, creating delicious and healthy meals that will satisfy even the most demanding gourmets."
+
+  offer17: Pricing
+  offer18: Choose your Farmia and contact us to discuss the details.
+
+  offer19: Apartments in the house
+  offer20: We have two large apartments in the attic of the house. Each with a bathroom and kitchenette.
+  offer21: On the upper floor of our house, we offer two large apartments, each with a bathroom and kitchenette. Each can comfortably sleep up to 4 people.
+
+  off_season: Off-season
+  season: Holidays, Christmas, Winter Break
+  main_building: Rental of the Main Building (19 beds) per night
+  appt: Rental of the apartement in the house per night
+  food: Catering per day (breakfast, lunch, dinner)
+  sauna: Sauna (3h)
+  wood: Firewood for bonfire
+pl:
+  offer: Oferta
+  offer2: Co mamy do zaoferowania?
+  offer3: Zobacz co przygotowaliśmy dla Ciebie podczas pobytu na Farmii.
+  offer4: Główny budynek
+  offer5: "Nasz główny budynek to wyremontowany stary pruski chlew zbudowany z czerwonej cegły. Gościmy w nim komfortowo 19 osób."
+  offer6: |
+    Na parterze znajdują się:
+    1. Przedpokój.
+    2. Pokój lilia (łóżko dwuosobowe). Łazienka z prysznicem. Pokój psiolubny.
+    3. W pełni wyposażona kuchnia z kuchenką gazową, elektrycznym piekarnikiem i zmywarką.
+    4. Jadalnia i salon z kominkiem (kozą) opalanych drewnem.
+    5. Sauna sucha.
+    6. Pokój do masażu.
+  offer7: |
+      Na poddaszu znajdują się następujące pokoje, każdy wyposażony w łazienkę z prysznicem:
+      1. Nasturcja (dwa łóżka jednoosobowe).
+      2. Słonecznik (dwa łóżka jednoosobowe i dwa materace na antresoli).
+      3. Mak (dwa łóżka jednoosobowe w osobnej sypialni i kanapa). Taras.
+      4. Mięta (dwa łóżka jednoosobowe w osobnej sypialni i kanapa). Taras.
+      5. Chaber (dwa łóżka jednoosobowe i dwa materace na antresoli).
+      6. Bez (dwa łóżka jednoosobowe).
+  offer11: W budynku jest ogrzewania podłogowe i rekuperacja. Sauna zasialana jest piecem elektrycznym.
+  offer8: Stodoła
+  offer9: Nasza stodoła to wpisany do rejestru zabytków majsterszyk sztuki polskiego cisielstwa. Udostępniamy tę powierzchnie na warsztaty, posiłki, spotkania.
+  offer10: Udostępniamy gościom 200㎡ stodoły. Na podłodze jest tam betonowa posadzka. Stodoła oferuje chłód w upalne dni i osłonę przed wiatrem. Nie jest ogrzewana. Można tam oglądać filmy, porozmawiać podczas wspólnego posiłku, poćwiczyć jogę. Jest tam światło, elektryczność i bezprzewodowy dostęp do internetu.
+  offer11: Obejście
+  offer12: Zapraszamy gości do korzystania z naszego obejścia zorganizowanego na bazie oryginalnego warmińskiego gospodarstwa.
+  offer13: |
+    Na nasz teren składają się następujące elementy:
+    1. Główny budynek dla gości.
+    2. Taras
+    3. Staw.
+    4. Stodoła.
+    5. Dom.
+    6. Nieużywany budynek gospodarczy.
+    7. Miejsce na ognisko.
+    8. Główny wjazd.
+  offer14: Posiłki
+  offer15: Specjalnością Farmii są przepyszne posiłki wegetariańskie. Ugotujemy również tradycyjnie. Zawsze sezonowo, lokalnie i z sercem.
+  offer16: "Gotowanie wegetariańsko to fascynująca podróż przez różnorodne smaki i techniki kulinarne, która pozwala odkrywać zdrowe i smaczne potrawy. Nasze doświadczenie w tej dziedzinie obejmuje szeroki wachlarz dań, od prostych sałatek, przez zupy, po bardziej skomplikowane dania główne. Przykładowo, nasza kremowa zupa z dyni i soczewicy cieszy się ogromnym uznaniem, podobnie jak sałatka z quinoa, warzywami grillowanymi i sosem tahini. Specjalizujemy się także w przygotowywaniu wegetariańskich wersji klasycznych potraw, takich jak lasagne z bakłażanem i cukinią czy curry z ciecierzycą i szpinakiem. Nasza kuchnia to miejsce, gdzie świeżość składników łączy się z pasją do gotowania, tworząc pyszne i zdrowe posiłki, które zadowolą nawet najbardziej wymagających smakoszy."
+
+  offer19: Apartamenty w domu
+  offer20: Dysponujemy dwoma dużymi apartamentami na poddaszu domu. Każdy z łazienką i aneksem kuchennym.
+  offer21: Na górze naszego domu oferujemy dwa duże apartamenty, każdy z łazienką i aneksem kuchennym. W każdym komfortowo może spać do 4 osób.
+
+  offer17: Cennik
+  offer18: Wybierz swoją Farmię i skontaktuj się z nami aby omówić szczegóły.
+
+  off_season: Poza sezonem
+  season: Wakacje, Święta, Ferie
+  main_building: Wynajem Głównego Budynku (19 łóżek) na dobę
+  appt: Wynajem apartamentu w domu na dobę
+  food: Wyżywienie na dobę (śniadanie, obiad, kolacja)
+  sauna: Sauna (3h)
+  wood: Drewno na ognisko

@@ -1,0 +1,155 @@
+-   title: 
+      pl: Pokoje w głównym budynku
+      en: The rooms in the main building
+    desc: 
+      pl: Przedstawiamy zdjęcia pokoi w naszym głównym budynku. Każdy pokój dysponuje łazienką z prysznicem.
+      en: Take a look at the rooms located in our main building. Each room has a bathroom with a shower.
+    folder: rooms
+    imgs:
+    - fn: 1
+    - fn: 2
+    - fn: 3
+    - fn: 4
+    - fn: 5
+    - fn: 6
+    - fn: 7
+    - fn: 8
+    - fn: 9
+    - fn: 10
+    - fn: 11
+    - fn: 12
+-   title: 
+      pl: Przestrzeń wspólna w głównym budynku
+      en: Common space in our main building
+    desc: 
+      pl: Przestrzeń wspólna na parterze głównego budynku
+      en: Common space on the ground floor of our main building
+    folder: common
+    imgs:
+    - fn: 1
+    - fn: 2
+    - fn: 3
+    - fn: 4
+-   title: 
+      pl: Jak gotujemy
+      en: Our food
+    desc: 
+      pl: Gotujemy sezonowo, lokalnie, zgodnie z intuicją. Także wegańsko i wegetariańsko. Wkładamy w to serce i miłość.
+      en: We cook seasonally, locally, intuitively. Also vegan and vegetarian. We put our heart and love into it.
+    folder: food
+    imgs:
+    - fn: 1
+    - fn: 2
+    - fn: 3
+    - fn: 4
+    - fn: 5
+    - fn: 6
+    - fn: 7
+    - fn: 8
+    - fn: 9
+    - fn: 10
+    - fn: 11
+    - fn: 12
+    - fn: 13
+    - fn: 14
+    - fn: 15
+    - fn: 16
+    - fn: 17
+-   title: 
+      pl: SPA z sauną
+      en: SPA and sauna
+    desc: 
+      pl: 
+      en: 
+    folder: spa
+    imgs:
+    - fn: 1
+    - fn: 2
+    - fn: 3
+    - fn: 4
+    - fn: 5
+    - fn: 6
+-   title: 
+      pl: Stodoła
+      en: The Barn
+    desc: 
+      pl: Faktura drewna, rozproszone światło, chłód dający otuchę - stodoła to najlepsze miejsce na rozmowę, wspólną kolację lub tańce.
+      en: The texture of the wood, the diffused light, the comforting coolness - the barn is the best place for a conversation, a shared dinner or dancing.
+    folder: barn
+    imgs:
+    - fn: 5
+    - fn: 1
+    - fn: 2
+    - fn: 3
+    - fn: 4
+    - fn: 6
+    - fn: 7
+    - fn: 8
+    - fn: 9
+    - fn: 10
+-   title: 
+      pl: Obejście
+      en: The Farmyard
+    desc: 
+      pl: 
+      en: 
+    folder: farmyard
+    imgs:
+    - fn: 1
+    - fn: 3
+    - fn: 4
+    - fn: 5
+    - fn: 6
+    - fn: 7
+    - fn: 8
+    - fn: 9
+    - fn: 10
+    - fn: 11
+    - fn: 12
+-   title: 
+      pl: Apartamenty w domu
+      en: Appartments at the house
+    desc: 
+      pl: 
+      en: 
+    folder: apts
+    imgs:
+    - fn: 1
+    - fn: 2
+    - fn: 3
+    - fn: 4
+-   title: 
+      pl: Historia siedliska
+      en: Our homestead history
+    desc: 
+      pl: Prezentujemy zdjęcia naszego siedliska, które otrzymaliśmy od poprzednich właścicieli.
+      en: We present photos of our homestead that we received from its previous owners.
+    folder: history
+    imgs:
+        - fn: 1
+        - fn: 2
+          alt:
+            pl: Dom przed remontem
+            en: The house before the renovation
+        - fn: 3
+          alt:
+            pl: Słub właściciela
+            en: The owner's wedding
+        - fn: 4
+          alt:
+            pl: Stodoła została wybudowana ponoć w 1939
+            en: The barn has been allegedly in 1939 
+        - fn: 5
+          alt:
+            pl: Adolf Steffen - jeden z poprzednich właścicieli
+            en: Adolf Steffen - one of the past owners
+        - fn: 6
+          alt:
+            pl: Dom po remoncie
+            en: The house after renovation
+        - fn: 7
+        - fn: 8
+        - fn: 9
+        - fn: 10
+        - fn: 11
+        - fn: 12

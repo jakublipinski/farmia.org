@@ -1,0 +1,22 @@
+en:
+  contact: Make a reservation
+  contact2: Contact us to arrange the details of your stay at Farmia. We will reply promptly.
+  user_name: Name and Surname
+  phone_number: Phone Number
+  user_email: Email Address
+  guests: Number of Guests
+  checkin: Check-in Date
+  checkout: Check-out Date
+  message: Message
+  send: Send
+pl:
+  contact: Zarezerwuj Farmię
+  contact2: Skontaktuj się z nami w celu ustalenia szczegółow Twojego pobytu na Farmii. Odpiszemy niezwłocznie.
+  user_name: Imię i Nazwisko
+  phone_number: Numer Telefonu
+  user_email: Adres Email
+  guests: Liczba Gości
+  checkin: Data Przyjazdu
+  checkout: Data Wyjazdu
+  message: Wiadomość
+  send: Wyślij

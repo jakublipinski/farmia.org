@@ -1,0 +1,219 @@
+{% assign t = site.data.index[page.lang] %}
+
+<!DOCTYPE html>
+<html lang="{{page.lang}}"> 
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    {% comment %}
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="/assets/favicon/manifest.json" />
+    <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+    <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml" />
+    {% endcomment %}
+    <meta name="theme-color" content="#ffffff" />
+    
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="/assets/css/libs.bundle.css" />
+    
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="/assets/css/theme.bundle.css" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    
+    <!-- Map -->
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css" />
+    
+    <!-- 
+      Color mode switch
+      - For demonstration purposes only
+      - If you do not have the possibility to store user preferences on the backend, I highly recommend switching to a media query implementation: https://getbootstrap.com/docs/5.3/customize/color-modes/#building-with-sass
+    -->
+    <script>
+      (() => {
+        window.addEventListener('DOMContentLoaded', () => {
+          const colorModeSwitch = document.getElementById('colorModeSwitch');
+          if (colorModeSwitch) {
+            colorModeSwitch.addEventListener('change', () => {
+              document.body.setAttribute('data-bs-theme', colorModeSwitch.checked ? 'dark' : 'light');
+            });
+          }
+        });
+      })();
+    </script>
+    
+    <!-- Title -->
+    <title>{{ page.title }}</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W3QQBNBVZT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-W3QQBNBVZT');
+    </script>    
+  </head>  
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-dark navbar-expand-lg navbar-togglable fixed-top">
+      <div class="container">
+        <!-- Navbar brand (mobile) -->
+        <a class="navbar-brand d-lg-none" href="/{{ page.lang }}/">Farmia</a>
+    
+        <!-- Navbar toggler -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Navbar collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <!-- Navbar nav -->
+          <ul class="navbar-nav" style="align-items:center">
+            {% comment %}
+            <li class="nav-item">
+              <a class="nav-link " href="meetings">{{t.meetings}}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="workshops">{{t.workshops}}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="workation">{{t.workation}}</a>
+            </li>
+            {% endcomment %}
+            <li class="nav-item">
+              <a class="nav-link " href="offer">{{t.offer}}</a>
+            </li>
+          </ul>
+    
+          <!-- Navbar brand -->
+          <a class="navbar-brand d-none d-lg-flex mx-lg-auto" href="/{{page.lang}}/">Farmia</a>
+    
+          <!-- Navbar nav -->
+          <ul class="navbar-nav" style="align-items:center">
+            <li class="nav-item">
+              <a class="nav-link " href="gallery">{{t.gallery}}</a>
+            </li>
+            {% comment %}
+            <li class="nav-item">
+              <a class="nav-link " href="neighborhood">{{t.neighborhood}}</a>
+            </li>
+            {% endcomment %}
+            <li class="nav-item">
+              <a class="nav-link " href="about">{{t.about}}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="contact">{{t.contact}}</a>
+            </li>
+            <li class="nav-item">
+              {% capture lang_prefix %}/{{page.lang}}/{% endcapture %}
+              {% if page.lang == "pl" %}
+              <a class="nav-link" style="font-size:1.25rem" href="{{page.permalink | replace_first: lang_prefix, '/en/'}}">🇬🇧</a>
+              {% else %}
+              <a class="nav-link" style="font-size:1.25rem" href="{{page.permalink | replace_first: lang_prefix, '/pl/'}}">🇵🇱</a>
+              {% endif %}
+            </li>
+          </ul>
+    
+          <!-- Color mode -->
+          <div class="form-check form-switch form-switch-color-mode ms-lg-1">
+            <input class="form-check-input" type="checkbox" role="switch" id="colorModeSwitch" />
+            <label class="form-check-label" for="colodeModeSwitch"></label>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    {{ content | raw}}
+
+    {% include contact_form.html %}
+
+    <!-- MAP -->
+    <section class="bg-black" data-map='{"center": [20.180765,53.8010993], "zoom": 11}' style="height: 30rem"></section>
+
+    <!-- FOOTER -->
+    <footer class="py-7 py-md-9 bg-black">
+      <div class="container px-4">
+        <div class="row gx-7">
+          <div class="col-sm-4">
+            <!-- Heading -->
+            <h5 class="text-xs text-primary">{{t.about}}</h5>
+    
+            <!-- Text -->
+            <p class="mb-6">
+              {{t.description}}
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <!-- Heading -->
+            <h5 class="text-xs text-primary">{{t.contact}}</h5>
+    
+            <!-- List -->
+            <ul class="list-unstyled mb-6">
+              <li class="d-flex mb-2">
+                <div class="fas fa-map-marker-alt me-3 mt-2 fs-sm"></div>
+                {{t.address}}
+              </li>
+              <li class="d-flex mb-2">
+                <div class="fas fa-phone me-3 mt-2 fs-sm"></div>
+                +48 690 572 223
+              </li>
+              <li class="d-flex">
+                <div class="far fa-envelope me-3 mt-2 fs-sm"></div>
+                <a class="text-decoration-none" href="mailto:farmia.org@gmail.com">farmia.org@gmail.com</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <!-- Heading -->
+            <h5 class="text-xs text-primary">{{t.follow_us}}</h5>
+    
+            <!-- Text -->
+            <ul class="list-unstyled mb-6">
+              <li class="d-flex mb-2">
+                <i class="fab fa-instagram me-3 mt-2 fs-sm"></i>
+                <a class="text-decoration-none" href="https://instagram.com/farmia_org">instagram.com/farmia_org</a>
+              </li>
+              <li class="d-flex mb-2">
+                <i class="fab fa-facebook-f me-3 mt-2 fs-sm"></i>
+                <a class="text-decoration-none" href="https://fb.com/farmia.org">fb.com/farmia.org</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <!-- Vendor JS -->
+    <script src="/assets/js/vendor.bundle.js"></script>
+    
+    <!-- Theme JS -->
+    <script src="/assets/js/theme.bundle.js"></script>
+
+    <!-- bootstrap and Lightbox for Gallery-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!--script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script-->
+    <script src="/assets/js/lightbox.js"></script>
+
+  </body>
+</html>

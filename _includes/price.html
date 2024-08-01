@@ -1,0 +1,5 @@
+{% if page.lang == "pl" %}
+{{ include.price }} zł
+{% else %}
+{{ include.price | divided_by: include.eurpln | round 2}} €
+{% endif %}

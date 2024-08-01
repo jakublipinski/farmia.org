@@ -1,0 +1,77 @@
+{% assign c = site.data.about[page.lang] %}
+
+    <!-- HEADER -->
+    <header data-jarallax data-speed=".8" data-img-position="center 25%" style="background-image: url(/assets/img/10.jpg);">
+        <div class="pt-10 pb-8 pt-md-15 pb-md-13 bg-black bg-opacity-25">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-8 col-lg-6 text-center">
+                <!-- Heading -->
+                <h1 class="display-6 fw-bold text-white">{{c.about}}</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <article class="pt-8 pt-md-9">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6 text-center">
+                  <!-- Heading -->
+                  <h1 class="mb-2">{{c.about2}}</h1>
+        
+                  <!-- Subheading -->
+                  <p class="mb-6">{{c.about3}}</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                
+                <div class="col-12 col-md-10 col-lg-6">
+                    <img class="media-decoration-img img-fluid" src="/assets/img/11.jpg" alt="..." />
+                </div>
+                <div class="col-12 col-md-10 col-lg-6">
+                    <!-- Text -->
+                    <p>
+                        {{c.about4}}
+                    </p>
+        
+                </div>
+                <!-- Divider -->
+                <div class="mt-6 mt-md-9 mb-0"></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8">
+                    <!-- Text -->
+                    <h3>Remont 2021-2024</h3>
+                    <p>
+                        {{c.about5}}
+                    </p>        
+                </div>
+                <div class="col-12 col-md-10 col-lg-4">
+                    <img class="media-decoration-img img-fluid" src="/assets/img/12.jpg" alt="..." />
+                    <!-- Divider -->
+                </div>
+                <div class="mt-6 mt-md-9 mb-0"></div>
+            </div>
+            <div class="row justify-content-center">
+                
+                <div class="col-12 col-md-10 col-lg-6">
+                    <img class="media-decoration-img img-fluid" src="/assets/img/14.jpg" alt="..." />
+                </div>
+                <div class="col-12 col-md-10 col-lg-6">
+                    <!-- Text -->
+                    <h3>{{c.about6}}</h3>
+                    <p>
+                        ...
+                    </p>
+        
+                </div>
+                <!-- Divider -->
+                <div class="mt-6 mt-md-9 mb-0"></div>
+            </div>
+
+
+        </div>
+      </article>
+  

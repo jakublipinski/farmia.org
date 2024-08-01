@@ -1,0 +1,195 @@
+{% assign t = site.data.index[page.lang] %}
+    <!-- WELCOME -->
+    <header data-jarallax data-speed=".8" style="background-image: url(/assets/img/1.jpg)">
+        <div class="d-flex flex-column min-vh-100 bg-black bg-opacity-25 pt-10 pt-md-8 pb-7 pb-md-0">
+          <div class="container my-auto">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-8 col-lg-6 text-center">
+                <!-- Preheading -->
+                <h6 class="text-xs text-white text-opacity-75"><span class="text-primary">{{t.homestead}}</span> / {{t.experience}}</h6>
+  
+                <!-- Heading -->
+                <h1 class="display-1 text-white mb-4">Farmia</h1>
+  
+                <!-- Subheading -->
+                <p class="text-center text-white text-opacity-75 mb-7">
+                  {{t.description}}
+                </p>
+  
+                <!-- Button -->
+                <a class="btn btn-outline-primary text-white text-primary-hover mb-7 mb-md-0" href="#reservation">{{t.make_reservation}} </a>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md">
+                <!-- Social links -->
+                <ul class="list-inline text-center text-md-start mb-3 my-md-5">
+                  <li class="list-inline-item ms-5">
+                    <a class="text-white text-opacity-75 text-primary-hover" href="https://www.facebook.com/farmia.org">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item ms-5">
+                    <a class="text-white text-opacity-75 text-primary-hover" href="https://instagram.com/farmia_org">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md">
+                <!-- Address -->
+                <p class="font-serif text-white text-opacity-75 text-center text-md-end text-lg-end my-md-5">
+                  <a class="text-white text-opacity-75 text-decoration-none" href="https://maps.app.goo.gl/ryuHazaUbHCy4Rut9"><i class="text-white text-opacity-75 fas fa-map-marker-alt text-primary me-3"></i> {{t.address}}</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+  
+      <!-- DISCOVER -->
+      <section class="pt-7 pt-md-9">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2">
+              <!-- Divider -->
+              <hr class="hr-sm text-primary" />
+  
+              <!-- Text -->
+              <p class="fs-lg lh-lg text-body-emphasis mb-5 mb-md-0">{{t.discover}}</p>
+            </div>
+            <div class="col-md-4">
+              <!-- Media -->
+              <div class="media-decoration media-decoration-1 mb-5 mb-md-0">
+                <!-- Border -->
+                <div class="media-decoration-border" data-jarallax-element="-40"></div>
+  
+                <!-- Image -->
+                <img class="media-decoration-img img-fluid" src="/assets/img/2.jpg" alt="..." />
+              </div>
+            </div>
+            <div class="col-md-5 align-self-center mx-auto">
+              <!-- Heading -->
+              <h2 class="mb-2">{{t.discover2}}</h2>
+  
+              <!-- Text -->
+              <p class="mb-0">
+                {{t.discover3}}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- DISCOVER -->
+      <section class="py-7 py-md-9">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2 order-md-2 align-self-end">
+              <!-- Divider -->
+              <hr class="hr-sm text-primary" />
+  
+              <!-- Text -->
+              <p class="fs-lg lh-lg text-body-emphasis mb-5 mb-md-0">{{t.discover6}}</p>
+            </div>
+            <div class="col-md-4 order-md-3">
+              <!-- Media -->
+              <div class="media-decoration media-decoration-1 mb-5 mb-md-0">
+                <!-- Solid -->
+                <div class="media-decoration-solid" data-jarallax-element="-40"></div>
+  
+                <!-- Border -->
+                <div class="media-decoration-border" data-jarallax-element="-40"></div>
+  
+                <!-- Image -->
+                <img class="media-decoration-img img-fluid" src="/assets/img/3.jpg" alt="..." />
+              </div>
+            </div>
+            <div class="col-md-5 order-md-1 align-self-center mx-auto">
+              <!-- Heading -->
+              <h2 class="mb-2">{{t.discover4}}</h2>
+  
+              <!-- Text -->
+              <p class="mb-0">
+                {{t.discover5}}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- MEET -->
+      <section data-jarallax data-speed=".8" style="background-image: url(/assets/img/4.jpg)">
+        <div class="min-vh-100 py-7 py-md-9 bg-gradient-bottom-end-white">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-4">
+                <!-- Divider -->
+                <hr class="hr-sm text-primary" />
+  
+                <!-- Text -->
+                <p class="fs-lg lh-lg text-black mb-0">{{t.meet}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+  
+      <!-- OPTIONS -->
+      <section class="py-7 py-md-9 border-bottom">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-6 text-center">
+              <!-- Heading -->
+              <h2 class="mb-2">{{t.options}}</h2>
+  
+              <!-- Subheading -->
+              <p class="mb-6">
+                {{t.options2}}
+              </p>
+            </div>
+          </div>
+  
+          <div class="row vh-25">
+            <div class="col-lg-4">
+              <div class="card card-cover overflow-hidden text-bg-dark rounded-4">
+                <img src="/assets/img/6.jpg" class="card-img opacity-50" alt="...">
+                <div class="card-img-overlay">
+                  <ul class="list-unstyled text-center text-white text-shadow-1">
+                    <li class="display-6 pb-2">{{t.meetings}}</li>
+                    <li>{{t.meetings2}}</li>
+                  </ul>
+                </div>
+                <a href="offer" class="stretched-link"></a>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card card-cover overflow-hidden text-bg-dark rounded-4">
+                <img src="/assets/img/5.jpg" class="card-img opacity-50" alt="...">
+                <div class="card-img-overlay">
+                  <ul class="list-unstyled text-center text-white text-shadow-1">
+                    <li class="display-6 pb-2">{{t.workshops}}</li>
+                    <li>{{t.workshops2}}</li>
+                  </ul>
+                </div>
+                <a href="offer" class="stretched-link"></a>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card card-cover overflow-hidden text-bg-dark rounded-4">
+                <img src="/assets/img/7.jpg" class="card-img opacity-50" alt="...">
+                <div class="card-img-overlay">
+                  <ul class="list-unstyled text-center text-white text-shadow-1">
+                    <li class="display-6 pb-2">{{t.workation}}</li>
+                    <li>{{t.workation2}}</li>
+                  </ul>
+                </div>
+                <a href="offer" class="stretched-link"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
