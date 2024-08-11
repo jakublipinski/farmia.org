@@ -1,3 +1,4 @@
 url: "https://farmia.org"
 plugins:
   - jekyll-sitemap
+  - jekyll-redirect-from  
