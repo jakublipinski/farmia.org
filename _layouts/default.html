@@ -127,6 +127,7 @@
             <li class="nav-item">
               <a class="nav-link " href="contact">{{t.contact}}</a>
             </li>
+            {% unless page.no_translation %}
             <li class="nav-item">
               {% capture lang_prefix %}/{{page.lang}}/{% endcapture %}
               {% if page.lang == "pl" %}
@@ -135,6 +136,7 @@
               <a class="nav-link" style="font-size:1.25rem" href="{{page.permalink | replace_first: lang_prefix, '/pl/'}}">🇵🇱</a>
               {% endif %}
             </li>
+            {% endunless %}
           </ul>
     
           <!-- Color mode -->
@@ -148,7 +150,9 @@
 
     {{ content | raw}}
 
+    {% unless page.no_contact_form %}
     {% include contact_form.html %}
+    {% endunless %}
 
     <!-- MAP -->
     <section class="bg-black" data-map='{"center": [20.180765,53.8010993], "zoom": 11}' style="height: 30rem"></section>
