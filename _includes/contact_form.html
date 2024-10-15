@@ -16,7 +16,7 @@
             <div class="col-lg-8">
               <!-- Form -->
 
-              <form action="https://submit-form.com/6DOABuLKM">
+              <form action="https://submit-form.com/6DOABuLKM" data-botpoison-public-key="pk_5960f56b-8b6f-4d4f-a2aa-ef0b94fef4e9" id="contact-form">
                 <div class="row gx-3">
                   <div class="col-md-6">
                     <!-- Full name -->
@@ -63,12 +63,23 @@
                   </div>
                   <div class="col text-center">
                     <!-- Button -->
-                    <button class="btn btn-outline-primary" type="submit">{{c.send}}</button>
+                    <button class="btn btn-outline-primary" type="submit" id="contact-button">{{c.send}}</button>
                   </div>
                 </div>
               </form>
-            
-
+              <script>
+                var formElement = document.getElementById("contact-form");
+                var buttonElement = document.getElementById("contact-button");
+                formElement.addEventListener("botpoison-challenge-start", function () {
+                  buttonElement.setAttribute("disabled", "disabled");
+                });
+                formElement.addEventListener("botpoison-challenge-success", function () {
+                  buttonElement.removeAttribute("disabled");
+                });
+                formElement.addEventListener("botpoison-challenge-error", function () {
+                  buttonElement.removeAttribute("disabled");
+                });
+              </script>
             </div>
           </div>
         </div>
