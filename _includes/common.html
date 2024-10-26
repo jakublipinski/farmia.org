@@ -1,0 +1,40 @@
+{% assign t = include.texts[page.lang] %}
+<!-- HEADER -->
+<header data-jarallax data-speed=".8" data-img-position="center {{include.header_position|default: 90}}%" style="background-image: url({{include.header_img}});">
+  <div class="pt-10 pb-8 pt-md-15 pb-md-13 bg-black bg-opacity-25">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6 text-center">
+          <!-- Heading -->
+          <h1 class="display-6 fw-bold text-white">{{t.header}}</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<article class="pt-8 pt-md-9">
+  <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-10 text-center">
+            <!-- Heading -->
+            <h1 class="mb-2">{{t.header2}}</h1>
+  
+            <!-- Subheading -->
+            <p class="mb-6">{{t.header3}}</p>
+          </div>
+      </div>
+  </div>
+</article>
+
+{% include discover.html left_img=t.img1 left_excerpt=t.excerpt1 left_title=t.title1 left_text=t.text1 
+                         right_img=t.img2 right_excerpt=t.excerpt2 right_title=t.title2 right_text=t.text2 %}
+
+{% include discover.html left_img=t.img3 left_excerpt=t.excerpt3 left_title=t.title3 left_text=t.text3 
+                         right_img=t.img4 right_excerpt=t.excerpt4 right_title=t.title4 right_text=t.text4 %}
+<section class="">
+  <div class="container text-center pb-8 pt-2">
+    <a class="btn btn-outline-primary text-primary-hover mb-7 mb-md-0" href="offer">{{t.offer}}</a>
+  </div>
+</div>
+
