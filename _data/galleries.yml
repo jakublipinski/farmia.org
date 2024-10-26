@@ -26,10 +26,14 @@
       en: Common space on the ground floor of our main building
     folder: common
     imgs:
-    - fn: 1
-    - fn: 2
+    - fn: 5
+    - fn: 6
+    - fn: 4    
     - fn: 3
-    - fn: 4
+    - fn: 7
+    - fn: 8
+        
+
 -   title: 
       pl: Jak gotujemy
       en: Our food
