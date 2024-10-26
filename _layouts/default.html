@@ -57,6 +57,23 @@
     
     <!-- Title -->
     <title>{{ page.title }}</title>
+    
+    <meta name="description" content="{{page.desc}}">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://farmia.org{{page.url}}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="{{page.desc}}">
+    <meta property="og:image" content="https://farmia.org{{page.img}}">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="farmia.org">
+    <meta property="twitter:url" content="https://farmia.org{{page.url}}">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="{{page.desc}}">
+    <meta name="twitter:image" content="https://farmia.org{{page.img}}">    
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-W3QQBNBVZT"></script>
