@@ -18,6 +18,11 @@
     - fn: 10
     - fn: 11
     - fn: 12
+    - fn: 13
+    - fn: 14
+    - fn: 15
+    - fn: 16
+    - fn: 17
 -   title: 
       pl: Przestrzeń wspólna w głównym budynku
       en: Common space in our main building
@@ -26,14 +31,15 @@
       en: Common space on the ground floor of our main building
     folder: common
     imgs:
+    - fn: 1
+    - fn: 2
+    - fn: 4        
     - fn: 5
-    - fn: 6
-    - fn: 4    
+    - fn: 6   
     - fn: 3
     - fn: 7
     - fn: 8
-        
-
+    - fn: 9    
 -   title: 
       pl: Jak gotujemy
       en: Our food
@@ -59,6 +65,12 @@
     - fn: 15
     - fn: 16
     - fn: 17
+    - fn: 18
+    - fn: 19
+    - fn: 20
+    - fn: 21
+    - fn: 22
+    - fn: 23    
 -   title: 
       pl: SPA z sauną
       en: SPA and sauna
@@ -91,6 +103,8 @@
     - fn: 8
     - fn: 9
     - fn: 10
+    - fn: 11
+    - fn: 12            
 -   title: 
       pl: Obejście
       en: The Farmyard
@@ -110,6 +124,12 @@
     - fn: 10
     - fn: 11
     - fn: 12
+    - fn: 13
+    - fn: 14
+    - fn: 15
+    - fn: 16
+    - fn: 17
+    - fn: 18
 -   title: 
       pl: Apartamenty w domu
       en: Appartments at the house
