@@ -1,0 +1,12 @@
+.fc-daygrid-day-number {
+    font-size: 0.8em;
+  }
+.fc-daygrid-event {
+    font-size: 0.4em;
+}
+.fc-event-start {
+    margin-left: 15px !important;
+}
+.fc-event-end {
+    margin-right: 15px !important;
+}  
