@@ -1,12 +1,13 @@
 eurpln: 4.1
-main_building: 2500
-main_building2: 3500
+main_building: 2950
+main_building2: 3550
 appt: 400
 appt2: 500
 food: 180
 food2: 200
 sauna: 200
 wood: 50
+dog: 50
 
 en:
   offer: Offer
@@ -63,12 +64,14 @@ en:
   offer24: We offer wireless Internet (WiFi) in the main building, the house, and the barn. LTE cellular coverage is also available throughout the entire area.
 
   off_season: Off-season
-  season: Holidays, Christmas, Winter Break
+  season: Long weekends, Holidays
   main_building: Rental of the Main Building (19 beds) per night
   appt: Rental of the apartement in the house per night
   food: Catering per day (breakfast, lunch, dinner)
   sauna: Sauna (3h)
   wood: Firewood for bonfire
+  dog: Fee for bringing a dog
+  details: We accept bookings for a minimum of 2 nights. We have space for one dog at Farmia. Please inform us if you are coming with a pet.
   calendar1: Our calendar
   calendar2: Below you can see our confirmed reservations. Check our availability and book your date.
 pl:
@@ -126,11 +129,13 @@ pl:
   offer18: Wybierz swoją Farmię i skontaktuj się z nami aby omówić szczegóły.
 
   off_season: Poza sezonem
-  season: Wakacje, Święta, Ferie
+  season: Długie weekendy, Święta
   main_building: Wynajem Głównego Budynku (19 łóżek) na dobę
   appt: Wynajem apartamentu w domu na dobę
   food: Wyżywienie na dobę (śniadanie, obiad, kolacja)
   sauna: Sauna (3h)
   wood: Drewno na ognisko
+  dog: Opłata za przyjazd z psem
+  details: Przyjmujemy rezerwacje na minimum 2 doby. Na Farmii mamy miejsce na jednego psa. Prosimy o informację o przyjeździe z pupilem.
   calendar1: Nasz kalendarz
   calendar2: Poniżej prezentujemy nasze potwierdzone rezerwacje. Sprawdź naszą dostępność i zarezerwuj swój termin.
