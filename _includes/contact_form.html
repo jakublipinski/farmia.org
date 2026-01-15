@@ -79,6 +79,12 @@
                 formElement.addEventListener("botpoison-challenge-error", function () {
                   buttonElement.removeAttribute("disabled");
                 });
+
+                document.getElementById('contact-form').addEventListener('submit', function(e) {
+                  // Fire the Facebook Lead event
+                  fbq('track', 'Lead');
+                });
+
               </script>
             </div>
           </div>
